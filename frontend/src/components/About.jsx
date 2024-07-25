@@ -19,7 +19,7 @@ const About = () => {
   return (
     <>
       <div className="main container h-[500px] bg-gray-100 max-w-fit">
-        <h1 className="text-center text-3xl font-bold underline py-110">
+        <h1 className="text-center text-3xl font-bold underline py-10">
           About Me
         </h1>
         <div className="flex justify-center items-center">
