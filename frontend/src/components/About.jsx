@@ -23,23 +23,23 @@ const About = () => {
           About Me
         </h1>
         <div className="flex justify-center items-center">
-          <div className="w-full flex justify-center">
-            <img
-              src={data.image}
-              alt="suresh lama"
-              className="rounded-full size-80 shadow-lg"
-            />
-          </div>
-          <div className="w-full flex justify-center items-center">
-            <div className="w-2/3 space-y-5">
-              <h1 className="text-3xl font-semi-bold">{data.title}</h1>
-              <p>{data.desc1}</p>
-              <p>{data.desc2}</p>
-              <button className="mt-8 bg-orange-500 text-white rounded-full px-3 py-2 hover:scale-110 transform transition-transform duration-100 ease-in-out text-1xl shadow-lg">
-                <a href={data.actionButton.link}>{data.actionButton.title}</a>
-              </button>
+            <div className="w-full flex justify-center">
+              <img
+                src={data.image}
+                alt="suresh lama"
+                className="rounded-full size-80 shadow-lg"
+              />
             </div>
-          </div>
+            <div className="w-full flex justify-center items-center">
+              <div className="w-2/3 space-y-5">
+                <h1 className="text-3xl font-semi-bold">{data.title}</h1>
+                <p>{data.desc1}</p>
+                <p>{data.desc2}</p>
+                <button className="mt-8 bg-orange-500 text-white rounded-full px-3 py-2 hover:scale-110 transform transition-transform duration-100 ease-in-out text-1xl shadow-lg">
+                  <a href={data.actionButton.link}>{data.actionButton.title}</a>
+                </button>
+              </div>
+            </div>
         </div>
       </div>
     </>
