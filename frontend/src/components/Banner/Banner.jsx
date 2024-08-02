@@ -2,6 +2,7 @@ import bannerImage from "../../assets/file.png";
 import bannerBackground from "../../assets/banner_wallpaper.svg";
 import Icons from "./Icons";
 import { IoMdDownload } from "react-icons/io";
+import List from "./CatList";
 const Banner = () => {
   return (
     <>
@@ -17,13 +18,17 @@ const Banner = () => {
             <h3 className="text-2 font-semibold">Hi, I am</h3>
             <h1 className="text-4xl font-bold">Suresh Lama</h1>
             <h2 className=" text-1xl font-medium">
-              And i am a Backend Developer
+              And i am a <List></List>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              quae quam minus commodi perspiciatis dolor, nam eveniet excepturi,
-              tempore officia obcaecati, doloremque quibusdam unde nihil
-              exercitationem iste expedita ratione consequuntur.
+              {/* I specialize in building robust backend systems and dynamic
+              frontend interfaces. With a strong background in Django and a
+              knack for creating seamless user experiences, I bring both
+              technical expertise and creative solutions to the table. */}
+              I specialize in creating robust backend systems and engaging
+              frontend interfaces. With a strong foundation in Django and a keen
+              eye for seamless user experiences, I deliver technical expertise
+              and innovative solutions. Let’s bring your vision to life!
             </p>
             <Icons></Icons>
             <br />
